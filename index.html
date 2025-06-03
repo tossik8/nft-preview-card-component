@@ -15,35 +15,37 @@
     <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body class="[ flex flex-column ] [ justify-content-center align-items-center bg-blue-950 ]">
-    <div class="[ card ] [ flex flex-column ] [ bg-blue-900 gap-1 ]">
-        <div class="[ card__img-container ]">
-            <img src="./images/image-equilibrium.jpg" alt="Equilibrium" class="card__img">
-            <div class="[ card__img-hover-bg ] [ flex ] [ justify-content-center align-items-center bg-cyan-400 ]">
-                <img src="./images/icon-view.svg" alt="">
+    <main>
+        <div class="[ card ] [ flex flex-column ] [ bg-blue-900 gap-1 ]">
+            <div class="[ card__img-container ]">
+                <img src="./images/image-equilibrium.jpg" alt="Equilibrium" class="card__img">
+                <div class="[ card__img-hover-bg ] [ flex ] [ justify-content-center align-items-center bg-cyan-400 ]">
+                    <img src="./images/icon-view.svg" alt="">
+                </div>
+            </div>
+            <h1 class="[ card__title ] [ white fs-body fw-600 ]">Equilibrium #3429</h1>
+            <p class="blue-500 fw-300">Our Equilibrium collection promotes balance and calm.</p>
+            <div class="[ flex ] [ justify-content-between ]">
+                <div class="[ flex ] [ gap-1 ]">
+                    <img src="./images/icon-ethereum.svg" alt="">
+                    <p class="cyan-400">0.041 ETH</p>
+                </div>
+                <div class="[ flex ] [ gap-1 ]">
+                    <img src="./images/icon-clock.svg" alt="" class="object-fit-contain">
+                    <p class="blue-500">3 days left</p>
+                </div>
+            </div>
+            <hr class="card__separator">
+            <div class="[ flex ] [ align-items-center gap-1 ]">
+                <img src="./images/image-avatar.png" alt="Avatar" class="card__avatar">
+                <p class="blue-500">Creation of <span class="[ card__author-name ] [ white ]">Jules Wyvern</span></p>
             </div>
         </div>
-        <p class="[ card__title ] [ white fs-body fw-600 ]">Equilibrium #3429</p>
-        <p class="blue-500 fw-300">Our Equilibrium collection promotes balance and calm.</p>
-        <div class="[ flex ] [ justify-content-between ]">
-            <div class="[ flex ] [ gap-1 ]">
-                <img src="./images/icon-ethereum.svg" alt="">
-                <p class="cyan-400">0.041 ETH</p>
-            </div>
-            <div class="[ flex ] [ gap-1 ]">
-                <img src="./images/icon-clock.svg" alt="" class="object-fit-contain">
-                <p class="blue-500">3 days left</p>
-            </div>
-        </div>
-        <hr class="card__separator">
-        <div class="[ flex ] [ align-items-center gap-1 ]">
-            <img src="./images/image-avatar.png" alt="Avatar" class="card__avatar">
-            <p class="blue-500">Creation of <span class="[ card__author-name ] [ white ]">Jules Wyvern</span></p>
-        </div>
-    </div>
+    </main>
 
-  <div class="[ attribution ] [ blue-500 fw-300 ]">
+  <footer class="[ attribution ] [ blue-500 fw-300 ]">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="cyan-400" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/nikita-toropov/" class="cyan-400">Nikita Toropov</a>.
-  </div>
+  </footer>
 </body>
 </html>
