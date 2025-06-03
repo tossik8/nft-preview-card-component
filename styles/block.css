@@ -12,7 +12,7 @@ body {
 
 .card {
     max-width: 340px;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1.5rem;
 }
 
@@ -21,7 +21,7 @@ body {
     position: relative;
 }
 
-.card__img-hover-bg {
+.card__img-overlay {
     position: absolute;
     top: 0;
     height: 100%;
@@ -38,6 +38,14 @@ body {
     border-radius: inherit;
 }
 
+.card__title {
+    font-size: 22px;
+}
+
+.card__description {
+    font-size: 18px;
+}
+
 .card__separator {
     border-color: var(--blue-800);
 }
@@ -49,12 +57,12 @@ body {
     height: 40px;
 }
 
-.card__img-hover-bg:hover {
+.card__img-overlay:hover {
     background-color: rgba(var(--cyan-400-rgb), 0.7);
     opacity: 1;
 }
 
-.card__img-hover-bg:hover,
+.card__img-overlay:hover,
 .card__title:hover,
 .card__author-name:hover {
     cursor: pointer;

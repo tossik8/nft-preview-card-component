@@ -26,15 +26,11 @@
 }
 
 .gap-2 {
-    gap: calc(var(--space) * 2)
+    gap: calc(var(--space) * 2);
 }
 
 .object-fit-contain {
     object-fit: contain;
-}
-
-.fs-body {
-    font-size: 18px;
 }
 
 .fw-300 {
