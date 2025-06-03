@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/tossik8/nft-preview-card-component](https://github.com/tossik8/nft-preview-card-component)
-- Live Site URL: [https://jolly-starlight-bcb938.netlify.app/](https://jolly-starlight-bcb938.netlify.app/)
+- Live Site URL: [https://tossik8.github.io/nft-preview-card-component/](https://tossik8.github.io/nft-preview-card-component/)
 
 ## Built with
 
